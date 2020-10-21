@@ -22,11 +22,11 @@ for each "logs" folder it will generate one preprocessed logging file at the "ou
 
 (B) graph_generator.py usage:
 - execute the command "python3 graph_generator.py"
-to take each preprocessed logs files from the "output" folder and generate a graph file at the "output" folder.
+to take each preprocessed logs files from the "output" folder and generate a corresponding graph file at the "output" folder.
 
 (C) graph_reader.py usage:
 - execute the command "python3 graph_reader.py"
-to take each graph file from the "output" folder and generate a sequence (text) file at the "output" folder.
+to take each graph file from the "output" folder and generate a corresponding sequence (text) file at the "output" folder.
 
 (D) atlas.py usage:
 - edit atlas.py and set the variable "DO_TRAINING" to "True", or set it to "False" if you would like to do testing instead.
