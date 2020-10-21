@@ -1,11 +1,19 @@
 This repository contains artifacts for the paper:
-"ATLAS: A Sequence-based Learning Approach for Attack Investigation" accepted at 30th USENIX Security Symposium.
+"ATLAS: A Sequence-based Learning Approach for Attack Investigation" accepted at the 30th USENIX Security Symposium.
 The artifacts include ATLAS source code, and audit logs that include the APT attacks we detailed in the paper.
+
+Dependencies:
+Python 3 (tested on Python 3.7.7)
+fuzzywuzzy 0.18.0
+keras 2.3.1
+matplotlib 2.2.5
+numpy 1.16.6
+networkx 2.2
+
 
 The "paper_experiments" folder includes individual folders for all the experiments presented in the paper.
 Each folder contains a copy of ATLAS so that the experiments results can be easily reproduced.
-Each experiment folder contains the preprocessed log files, thus, you could skip the steps (A) through (C) listed below. However,
-the raw audit logs can be found in the folder "raw_logs". 
+Each experiment folder contains the preprocessed log files, thus, you could skip the steps (A) through (C) listed below. However, the raw audit logs can be found in the folder "raw_logs". 
 
 (A) preprocess.py usage:
 - execute the command "python3 preprocess.py"
