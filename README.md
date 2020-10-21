@@ -59,4 +59,4 @@ evaluate.py program (in h2 folder) it will consider all involved hosts.
 - execute the command "python3 evaluate.py"
 and the final result will be printed based on all the json eval_** files stored at the "output" folder.
 
-NOTE: To find precision, recall and f1-score for each experiment, we use the number of false positives and negatives reported by atlas and we update them at the Excel sheet paper_experiments/docs/atlas.xlsx to get the result.
+NOTE: To find the precision, recall and f1-score for each experiment, we use the number of false positives and negatives reported by atlas and we update them at the Excel sheet paper_experiments/docs/atlas.xlsx to get the result.
