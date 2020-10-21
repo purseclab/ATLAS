@@ -17,16 +17,16 @@ Each experiment folder contains the preprocessed log files, thus, you could skip
 
 (A) preprocess.py usage:
 - execute the command "python3 preprocess.py"
-it will read "logs" folders located in the training_logs and testing_logs folders, and
+to preprocess the "logs" folders located in the training_logs and testing_logs folders, and
 for each "logs" folder it will generate one preprocessed logging file at the "output" folder.
 
 (B) graph_generator.py usage:
 - execute the command "python3 graph_generator.py"
-it will read each preprocessed log file from the "output" folder and generate a graph file at the "output" folder.
+to take each preprocessed logs files from the "output" folder and generate a graph file at the "output" folder.
 
 (C) graph_reader.py usage:
 - execute the command "python3 graph_reader.py"
-which reads each graph file from the "output" folder and generate a sequence (text) file at the "output" folder.
+to take each graph file from the "output" folder and generate a sequence (text) file at the "output" folder.
 
 (D) atlas.py usage:
 - edit atlas.py and set the variable "DO_TRAINING" to "True", or set it to "False" if you would like to do testing instead.
