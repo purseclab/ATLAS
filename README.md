@@ -30,7 +30,7 @@ to take each graph file from the "output" folder and generate a sequence (text) 
 
 (D) atlas.py usage:
 - edit atlas.py and set the variable "DO_TRAINING" to "True", or set it to "False" if you would like to do testing instead.
-- execute the command "python3 atlas.py"
+- execute the command "python3 atlas.py" to run ATLAS.
 
 ATLAS "training" phase output:
 - model.h5 will be written to the "output" folder, now you can proceed to ATLAS "testing" phase.
