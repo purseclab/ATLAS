@@ -4,8 +4,9 @@ The artifacts include ATLAS source code, and audit logs that include the APT att
 
 Dependencies:
 - Python 3 (tested on Python 3.7.7)
+- TensorFlow 2.3.0
+- keras 2.4.3
 - fuzzywuzzy 0.18.0
-- keras 2.3.1
 - matplotlib 2.2.5
 - numpy 1.16.6
 - networkx 2.2
