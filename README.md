@@ -73,11 +73,9 @@ After doing this, the result shown above should become similar to this:
 You will have to edit that file by opening it in a text editor, then replace the first "[]" with your
 cleaned result (e.g., ["0xalsaheel.com", "aalsahee/index.html", "192.168.223.3", "payload.exe"]), then save the file.
 
-NOTE: If this result is for a host (e.g., h1) in a multi-host attack scenario (e.g., M1), then copy the JSON
+### Notes
+- If this result is for a host (e.g., h1) in a multi-host attack scenario (e.g., M1), then copy the JSON
 file to the "output" folder in the second host folder (e.g., h2), this way when we run the
-evaluate.py program (in h2 folder) it will consider all involved hosts.
-
-- execute the command "python3 evaluate.py"
+evaluate.py program (in h2 folder) it will consider all involved hosts. Execute the command "python3 evaluate.py"
 and the final result will be printed based on all the json eval_** files stored at the "output" folder.
-
-NOTE: To find the precision, recall and f1-score for each experiment, we use the number of false positives and negatives reported by atlas and we update them at the Excel sheet paper_experiments/docs/atlas.xlsx to get the result.
+- To find the precision, recall and f1-score for each experiment, we use the number of false positives and negatives reported by atlas and we update them at the Excel sheet paper_experiments/docs/atlas.xlsx to get the result.
