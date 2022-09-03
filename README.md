@@ -8,8 +8,6 @@ This repository contains artifacts for the paper:
 "> <img align="right" width="220"  src="https://cssaheel.github.io/atlas-cover-page.png"> </a> 
 </p>
 
-<br>
-
 ## Note
 
 The artifacts in this repository include ATLAS source code, and audit logs that include the APT attacks we detailed in the paper.
