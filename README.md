@@ -1,5 +1,17 @@
 This repository contains artifacts for the paper:
 "ATLAS: A Sequence-based Learning Approach for Attack Investigation" accepted at the 30th USENIX Security Symposium.
+
+If you make any use of the published artifacts in this repository, then please acknowledge the usage of the effort by citing our paper.<br>
+```
+@inproceedings{alsaheel2021atlas,
+  title={$\{$ATLAS$\}$: A sequence-based learning approach for attack investigation},
+  author={Alsaheel, Abdulellah and Nan, Yuhong and Ma, Shiqing and Yu, Le and Walkup, Gregory and Celik, Z Berkay and Zhang, Xiangyu and Xu, Dongyan},
+  booktitle={30th USENIX Security Symposium (USENIX Security 21)},
+  pages={3005--3022},
+  year={2021}
+}
+```
+
 The artifacts include ATLAS source code, and audit logs that include the APT attacks we detailed in the paper.
 
 Dependencies:
