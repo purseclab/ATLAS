@@ -10,6 +10,9 @@ This repository contains artifacts for the paper:
 
 <br>
 
+## Note
+
+The artifacts in this repository include ATLAS source code, and audit logs that include the APT attacks we detailed in the paper.
 If you have used any of the artifacts published in this repository, please acknowledge the use by citing our paper.<br>
 ```
 @inproceedings{alsaheel2021atlas,
@@ -21,9 +24,7 @@ If you have used any of the artifacts published in this repository, please ackno
 }
 ```
 
-The artifacts include ATLAS source code, and audit logs that include the APT attacks we detailed in the paper.
-
-Dependencies:
+## Dependencies
 - Python 3 (tested on Python 3.7.7)
 - TensorFlow 2.3.0
 - keras 2.4.3
@@ -32,7 +33,7 @@ Dependencies:
 - numpy 1.16.6
 - networkx 2.2
 
-
+## How to use
 The "paper_experiments" folder includes individual folders for all the experiments presented in the paper.
 Each folder contains a copy of ATLAS so that the experiments results can be easily reproduced.
 Each experiment folder contains the preprocessed log files, thus, you could skip the steps (A) through (C) listed below. However, the raw audit logs can be found in the folder "raw_logs". 
