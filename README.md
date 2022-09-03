@@ -6,6 +6,8 @@ This repository contains artifacts for the paper:
 "> <img align="right" width="220"  src="https://cssaheel.github.io/atlas-cover-page.png"> </a> 
 </p>
 
+<br>
+
 If you have used any of the artifacts published in this repository, please acknowledge the use by citing our paper.<br>
 ```
 @inproceedings{alsaheel2021atlas,
