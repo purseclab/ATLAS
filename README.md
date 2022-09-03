@@ -1,3 +1,5 @@
+# ATLAS
+
 This repository contains artifacts for the paper:
 "ATLAS: A Sequence-based Learning Approach for Attack Investigation" accepted at the 30th USENIX Security Symposium.
 
